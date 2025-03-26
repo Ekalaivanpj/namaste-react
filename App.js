@@ -9,11 +9,12 @@ import ReactDOM from "react-dom/client";
 //   "i am heading from react"
 // );
 
-const jsxHeading = (
-  <hi id="heading" tabIndex="5">
-    I am a jsx heading
-  </hi>
-);
+const heading = <h1>I am a jsx heading</h1>; //jsx element or react element
+
+//react function component
+const ReactFuncComponent = () => {
+  return <h1>React functional component</h1>;
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+root.render(<ReactFuncComponent />);

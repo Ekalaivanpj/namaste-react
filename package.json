@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "This is Namaste React course",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ekalaivanpj/namaste-react.git"
   },
-  "keywords": [
-    "react",
-    "course"
-  ],
+  "keywords": [],
   "author": "Ekalaivan",
   "license": "ISC",
   "bugs": {
